@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SnakeGame</title>
+    <link type="text/css" rel="stylesheet" href="snake.css">
+    <style>
+        .food{
+            top:50px;
+            left: 50px;
+        }
+    </style>
+    <script defer src="snake.js"></script>
+</head>
+<body>
+<!--    定义一个游戏容器-->
+<div class="gameBox">
+    <!--定义一个游戏区域-->
+    <div class="game">
+        <!-- 创建一个贪吃蛇   -->
+        <div id="snake">
+            <!-- 创建贪吃蛇头部    -->
+            <div id="head"></div>
+        </div>
+    <!--创建食物-->
+        <div class="food" ></div>
+    </div>
+<!--    定义一个积分区域-->
+    <div class="score-level">
+<!--分数-->
+        <div id="score">
+            SCORE:
+            <span>0</span>
+        </div>
+<!--等级-->
+        <div id="level">
+            LEVEL:<span>1</span>
+        </div>
+    </div>
+</div>
+</body>
+</html>
